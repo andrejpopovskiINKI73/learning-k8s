@@ -3,6 +3,10 @@ kind: Ingress
 metadata:
   name: nginx-ingress
 spec:
+  # tls:                               
+  # - hosts:                            
+  #     - andrejpopovski-sa.info                
+  #   secretName: selfsigned-cert-tls
   rules:
     - host: andrejpopovski-sa.info
       http:
